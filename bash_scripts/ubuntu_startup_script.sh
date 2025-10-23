@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-set -euo pipefail
-
 sudo apt update -y
 sudo apt install -y apache2 php libapache2-mod-php unzip wget
 
