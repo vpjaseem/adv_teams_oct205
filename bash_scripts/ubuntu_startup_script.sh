@@ -7,7 +7,7 @@ sudo systemctl enable --now apache2
 sudo chmod -R 777 /var/www/html
 
 cd /tmp
-wget -O main.zip "https://github.com/vpjaseem/az-lin-php-web-app/archive/refs/heads/main.zip"
+wget -O main.zip "https://github.com/vpjaseem/Azure_Linux_PHP_Sample_Web_App/archive/refs/heads/main.zip"
 unzip -o main.zip
 sudo mv az-lin-php-web-app-main/* /var/www/html/
 rm -rf az-lin-php-web-app-main main.zip
