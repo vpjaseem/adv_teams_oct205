@@ -1,4 +1,15 @@
-﻿# ===== Settings =====
+<#
+AJ Labs PowerShell Script for Bulk License Export (aj-labs.com)
+
+- PowerShell 7+ recommended
+- Modules (install once if missing):
+      Install-Module Microsoft.Graph -Scope CurrentUser -Force
+      Install-Module ImportExcel   -Scope CurrentUser -Force
+
+-Permissions: When prompted by Connect-MgGraph, consent to: User.ReadWrite.All
+#>
+ 
+ # ===== Settings =====
 $ExcelFolder = "E:\AJ Labs 2\Advanced Microsoft Teams Training\Training Docs\PowerShell\Administration via PowerShell"  # Update your file location here
 $ExcelFile   = "AJ_EntraID_License_Export_All.xlsx"
 $XlsxPath    = [System.IO.Path]::Combine($ExcelFolder, $ExcelFile)
@@ -66,3 +77,4 @@ $perUser |
                -AutoSize -TableName 'PerUserSummary' -FreezeTopRow -BoldTopRow
 
 Write-Host "Exported: $XlsxPath"
+
