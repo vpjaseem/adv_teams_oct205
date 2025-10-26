@@ -20,7 +20,7 @@ AJ Labs PowerShell Script for Bulk License Assignment (aj-labs.com)
 
 # ====== LOCATION SETTINGS (EDIT THESE) ======
 $ExcelFolder   = "E:\AJ Labs 2\Advanced Microsoft Teams Training\Training Docs\PowerShell\Administration via PowerShell"
-$ExcelFileName = "AJ_EntraID_License_Management_ Template.xlsx"   # <-- note the space before 'Template'
+$ExcelFileName = "AJ_EntraID_License_Management_Template.xlsx"   # <-- note the space before 'Template'
 $TenantId      = ""   # Optional tenant GUID to reduce prompts
 # ============================================
 
