@@ -9,8 +9,8 @@ sudo chmod -R 777 /var/www/html
 cd /tmp
 wget -O main.zip "https://github.com/vpjaseem/Azure_Linux_PHP_Sample_Web_App/archive/refs/heads/main.zip"
 unzip -o main.zip
-sudo mv az-lin-php-web-app-main/* /var/www/html/
-rm -rf az-lin-php-web-app-main main.zip
+sudo mv Azure_Linux_PHP_Sample_Web_App-main/* /var/www/html/
+rm -rf Azure_Linux_PHP_Sample_Web_App-main main.zip
 
 cd /var/www/html/
 rm -r index.html
